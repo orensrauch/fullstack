@@ -18,12 +18,22 @@
 }
 
 .mobile-nav__items {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav__logo {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid red;
+  background-color: rgb(115, 53, 53); 
+  
 }
 
 .mobile-nav__items.mobile {
-    flex-direction: column;
+  flex-direction: column;
 }
